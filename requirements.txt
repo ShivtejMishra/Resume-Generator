@@ -3,3 +3,4 @@ fpdf
 langchain
 gemini-api
 langchain-community
+langchain-google-genai
