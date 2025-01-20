@@ -2,5 +2,4 @@ streamlit
 fpdf
 langchain
 gemini-api
-GoogleGenerativeAI
 langchain-community
