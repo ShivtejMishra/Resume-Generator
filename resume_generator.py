@@ -4,7 +4,7 @@ class PDF(FPDF):
     def header(self):
         self.set_font('Arial', 'B', 24)
         self.set_text_color(0, 86, 179)  # Blue color
-        self.cell(0, 15, 'Your Name', 0, 1, 'C')
+        self.cell(0, 15, 'Resume', 0, 1, 'C')
         self.ln(8)
 
     def encode_text(self, text):
