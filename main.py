@@ -80,5 +80,5 @@ if st.button("Enhance and Generate Resume"):
 
     # Generate PDF
     generate_pdf(name, email, phone, address, website, summary, skills, experience, education_details)
-    with open("resume_output.pdf", "rb") as pdf_file:
+    with open("blue_theme_resume.pdf", "rb") as pdf_file:
         st.download_button("Download Resume", data=pdf_file, file_name="resume.pdf", mime="application/pdf")
